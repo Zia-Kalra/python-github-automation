@@ -1,0 +1,11 @@
+[project]
+name = "sample-python-project"
+version = "1.0.0"
+description = "A sample project for GitHub Actions with pytest"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+testpaths = [
+    "tests"
+]

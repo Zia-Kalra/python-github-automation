@@ -3,7 +3,7 @@ name = "sample-python-project"
 version = "1.0.1"
 description = "A sample project for GitHub Actions with pytest"
 dependencies = [
-    "urllib3==1.26.19"
+    "urllib3==2.5.0"
 ]
 
 [tool.pytest.ini_options]
